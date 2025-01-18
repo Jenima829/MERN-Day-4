@@ -14,4 +14,4 @@ Responsive Layout:
 <img width="360" alt="output" src="https://github.com/user-attachments/assets/fc9a6818-4ebf-4873-a97c-6f8addf9196c" />
 
 
-<img width="360" alt="op2" src="https://github.com/user-attachments/assets/ddb22195-6ec8-4c28-9395-97f45004d22c" />
+<img width="360" alt="op2" src="https://github.com/user-attachments/assets/62489fee-6657-4bd3-bd75-e9820066b848" />
