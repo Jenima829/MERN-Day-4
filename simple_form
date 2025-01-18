@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/026/992/343/small_2x/classic-modified-car-with-dark-smokie-background-ai-generative-free-photo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+         
+        }
+    .container{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25%;
+           margin-left: 40px;
+            font-size: xx-large;
+            color:chocolate;
+            border: 5px black solid;
+            border-radius: 50px;
+            box-shadow: 4px 4px azure;
+         
+        }
+        .container input{
+            width: 300px;
+            height: 20px;
+            border: 3px black solid;
+            border-radius: 30px;
+           
+        }
+        .container input::placeholder{
+            font-size: larger;
+            color: rgb(16,16,16,0.2);
+            padding: 5px;
+        }
+        .container button{
+            width: 100px;
+            height: 30px;
+            background-color: black;
+            border: 3px white solid;
+            border-radius: 30px;
+            color: azure;
+            font-size: large;
+        }
+        .container td{
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <h1>LOGIN FORM</h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="na"><b>Name:</b></label>
+                </td>
+                <td><input type="text" id="na" placeholder="Enter your name"></td>
+
+            </tr>
+            <tr>
+                <td><label for="nu"><b>Phn No:</b></label></td>
+                <td><input type="number" id="nu" placeholder="Enter Phone number"></td>
+            </tr>
+            <tr>
+                <td> <label for="em"><b>Email:</b></label></td>
+                <td> <input type="email" id="em" placeholder="Enter your email-id"></td>
+            </tr>
+           <tr><td><button>SUBMIT</button></td></tr>
+        </table>
+    </form>
+    
+   </div>
+</body>
+</html>
